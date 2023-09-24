@@ -1,0 +1,49 @@
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- University Name -->
+        <TextView
+            android:text="@string/name"
+            style="@style/Headings" />
+
+        <TextView
+            android:id="@+id/university_name"
+            style="@style/TextBoxes"
+            android:text="@string/xyz_university" />
+
+        <!-- University Country -->
+        <TextView
+            android:text="@string/country"
+            style="@style/Headings" />
+
+        <TextView
+            android:id="@+id/university_country"
+            style="@style/TextBoxes"
+            android:text="@string/united_states" />
+
+        <!-- University Web Page -->
+        <TextView
+           style="@style/Headings"
+            android:text="@string/web_page" />
+
+        <TextView
+            android:id="@+id/university_webpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6499E9"
+            android:text="@string/https_www_example_com_universityxyz" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

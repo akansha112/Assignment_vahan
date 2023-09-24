@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="name">Name :</string>
+    <string name="xyz_university">XYZ University</string>
+    <string name="country">Country :</string>
+    <string name="united_states">United States</string>
+    <string name="web_page">Web Page :</string>
+    <string name="https_www_example_com_universityxyz">https://www.example.com/universityxyz</string>
+    <string name="image">image</string>
+    <string name="vahan">Vahan</string>
+    <string name="universities_list">Universities List</string>
+</resources>
